@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var flowCoordinator: FlowCoordinator
+
     var mainCoordinator : MainCoordinator
+    @StateObject var orderVM:OrderVM  = OrderVM()
     
     init(mainCoordinator: MainCoordinator) {
         self.mainCoordinator = mainCoordinator
@@ -36,7 +37,7 @@ struct ContentView: View {
                  }
                  
                  Button {
-                     mainCoordinator.navigateToAddress()
+                     mainCoordinator.navigateToAddress(orderVM: orderVM)
                  } label: {
                       Text("Push Address View")
                  }
@@ -53,6 +54,9 @@ struct ContentView: View {
                     }
 
                 }
+            }
+            .onReceive(orderVM.$name) { name in
+                print(name)
             }
 
      }

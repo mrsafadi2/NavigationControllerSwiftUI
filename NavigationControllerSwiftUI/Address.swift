@@ -9,9 +9,18 @@ import SwiftUI
 
 struct Address: View {
     var name:String
+    @EnvironmentObject var orderVM:OrderVM
+    
     var body: some View {
         Text("Hello, World! \(name)")
+        
+            .onAppear(){
+                
+                orderVM.name = "test test "
+                print(orderVM.name)
+            }
     }
+
 }
 
 struct Address_Previews: PreviewProvider {

@@ -17,13 +17,13 @@ class AuthContainer{
     }
     
     func LoginRootView() -> UIViewController{
-        let vc = View1()
+        let vc = View1(authCoordinator: AuthCoordinator(flowController: flowCoordinator, authContainer: self))
         return LightHostingController(rootView: vc)
     }
     
     func registerView() -> UIViewController {
         let vc = Register()
         return LightHostingController(rootView: vc)
-
     }
+    
 }

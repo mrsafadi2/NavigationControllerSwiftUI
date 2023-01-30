@@ -23,6 +23,7 @@
 		C8609AD32987C9E600799C82 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AD22987C9E600799C82 /* Register.swift */; };
 		C8609AD52987CF2900799C82 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AD42987CF2900799C82 /* AuthCoordinator.swift */; };
 		C8609AD72987DCCC00799C82 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AD62987DCCC00799C82 /* MainCoordinator.swift */; };
+		C8609AD92987FB4100799C82 /* OrderVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AD82987FB4100799C82 /* OrderVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		C8609AD22987C9E600799C82 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		C8609AD42987CF2900799C82 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 		C8609AD62987DCCC00799C82 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		C8609AD82987FB4100799C82 /* OrderVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +89,12 @@
 				C8609AA72985510E00799C82 /* ContentView.swift */,
 				C8609ABC2985808200799C82 /* View1.swift */,
 				C8609ABE2985808F00799C82 /* View2.swift */,
+				C8609AD02987C9DA00799C82 /* Address.swift */,
+				C8609AD22987C9E600799C82 /* Register.swift */,
 				C8609AA92985510F00799C82 /* Assets.xcassets */,
 				C8609AAB2985510F00799C82 /* NavigationControllerSwiftUI.entitlements */,
 				C8609AAC2985510F00799C82 /* Preview Content */,
-				C8609AD02987C9DA00799C82 /* Address.swift */,
-				C8609AD22987C9E600799C82 /* Register.swift */,
+				C8609AD82987FB4100799C82 /* OrderVM.swift */,
 			);
 			path = NavigationControllerSwiftUI;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				C8609AB829857EDB00799C82 /* AppDelegate.swift in Sources */,
 				C8609ABF2985808F00799C82 /* View2.swift in Sources */,
 				C8609AA82985510E00799C82 /* ContentView.swift in Sources */,
+				C8609AD92987FB4100799C82 /* OrderVM.swift in Sources */,
 				C8609AD52987CF2900799C82 /* AuthCoordinator.swift in Sources */,
 				C8609AD32987C9E600799C82 /* Register.swift in Sources */,
 				C8609ACD2987C8DC00799C82 /* MainContainer.swift in Sources */,

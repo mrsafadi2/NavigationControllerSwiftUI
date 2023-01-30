@@ -22,14 +22,10 @@ class MainContainer {
     }
     
     
-    func addressView() -> UIViewController{
-        let vc = Address(name: "test")  
+    func addressView(orderVM:OrderVM) -> UIViewController{
+        let vc = Address(name: "test").environmentObject(orderVM)
         return LightHostingController(rootView: vc)
     }
     
-    func loginView() -> UIViewController {
-        let vc = View1()
-        return LightHostingController(rootView: vc)
-    }
     
 }

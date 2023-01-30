@@ -18,10 +18,9 @@ class MainCoordinator:ObservableObject {
         self.mainContainer  = mainContainer
     }
     
-    public func navigateToAddress() {
-        flowCoordinator.navigationController.pushViewController(mainContainer.addressView(), animated: true)
+    public func navigateToAddress(orderVM:OrderVM) {
+        flowCoordinator.navigationController.pushViewController(mainContainer.addressView(orderVM: orderVM), animated: true)
     }
-    
     
     public func pushView2(){
         let view = View2()
@@ -29,7 +28,7 @@ class MainCoordinator:ObservableObject {
         flowCoordinator.navigationController?.pushViewController(hostingView, animated: true)
     }
     
-    
+
     public func presentView2(){
         let view = View2()
         let hostingView = UIHostingController(rootView: view)

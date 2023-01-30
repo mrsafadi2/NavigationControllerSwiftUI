@@ -8,16 +8,30 @@
 import SwiftUI
 
 struct View1: View {
-    @EnvironmentObject var flowCoordinator: FlowCoordinator
 
+    var authCoordinator:AuthCoordinator
+    
+    init(authCoordinator: AuthCoordinator) {
+        self.authCoordinator = authCoordinator
+    }
+    
     var body: some View {
-        Text("Login as View1, World!")
+        VStack {
+            Text("Login as View1, World!")
+            
+            Button {
+                authCoordinator.navigateToRegister()
+            } label: {
+                Text("Push Register View")
+            }
+
+        }
            
     }
 }
 
 struct View1_Previews: PreviewProvider {
     static var previews: some View {
-        View1()
+        View1(authCoordinator: AuthCoordinator(flowController: FlowCoordinator(window: UIWindow.init()), authContainer: AuthContainer(flowCoordinator: FlowCoordinator(window: UIWindow.init()))))
     }
 }
