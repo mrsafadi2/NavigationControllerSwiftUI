@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8609AA62985510E00799C82 /* NavigationControllerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AA52985510E00799C82 /* NavigationControllerSwiftUIApp.swift */; };
 		C8609AA82985510E00799C82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AA72985510E00799C82 /* ContentView.swift */; };
 		C8609AAA2985510F00799C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8609AA92985510F00799C82 /* Assets.xcassets */; };
 		C8609AAE2985510F00799C82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8609AAD2985510F00799C82 /* Preview Assets.xcassets */; };
+		C8609AB829857EDB00799C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AB729857EDB00799C82 /* AppDelegate.swift */; };
+		C8609ABA29857EED00799C82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AB929857EED00799C82 /* SceneDelegate.swift */; };
+		C8609ABD2985808200799C82 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609ABC2985808200799C82 /* View1.swift */; };
+		C8609ABF2985808F00799C82 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609ABE2985808F00799C82 /* View2.swift */; };
+		C8609AC1298580A100799C82 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AC0298580A100799C82 /* Splash.swift */; };
+		C8609AC32985829F00799C82 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AC22985829F00799C82 /* FlowCoordinator.swift */; };
+		C8609AC629870BAF00799C82 /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AC529870BAF00799C82 /* CustomNavigation.swift */; };
+		C8609AC92987B24700799C82 /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AC82987B24700799C82 /* RootContainer.swift */; };
+		C8609ACB2987C8CE00799C82 /* AuthContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609ACA2987C8CE00799C82 /* AuthContainer.swift */; };
+		C8609ACD2987C8DC00799C82 /* MainContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609ACC2987C8DC00799C82 /* MainContainer.swift */; };
+		C8609AD12987C9DA00799C82 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AD02987C9DA00799C82 /* Address.swift */; };
+		C8609AD32987C9E600799C82 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AD22987C9E600799C82 /* Register.swift */; };
+		C8609AD52987CF2900799C82 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AD42987CF2900799C82 /* AuthCoordinator.swift */; };
+		C8609AD72987DCCC00799C82 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AD62987DCCC00799C82 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +33,21 @@
 		C8609AA92985510F00799C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8609AAB2985510F00799C82 /* NavigationControllerSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavigationControllerSwiftUI.entitlements; sourceTree = "<group>"; };
 		C8609AAD2985510F00799C82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8609AB729857EDB00799C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8609AB929857EED00799C82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C8609ABC2985808200799C82 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		C8609ABE2985808F00799C82 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		C8609AC0298580A100799C82 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		C8609AC22985829F00799C82 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
+		C8609AC42985A1FC00799C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8609AC529870BAF00799C82 /* CustomNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
+		C8609AC82987B24700799C82 /* RootContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContainer.swift; sourceTree = "<group>"; };
+		C8609ACA2987C8CE00799C82 /* AuthContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContainer.swift; sourceTree = "<group>"; };
+		C8609ACC2987C8DC00799C82 /* MainContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainer.swift; sourceTree = "<group>"; };
+		C8609AD02987C9DA00799C82 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		C8609AD22987C9E600799C82 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		C8609AD42987CF2900799C82 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		C8609AD62987DCCC00799C82 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +80,20 @@
 		C8609AA42985510E00799C82 /* NavigationControllerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C8609AC42985A1FC00799C82 /* Info.plist */,
 				C8609AA52985510E00799C82 /* NavigationControllerSwiftUIApp.swift */,
+				C8609AB629857E9000799C82 /* Delegate */,
+				C8609ABB2985806800799C82 /* Coordinator */,
+				C8609AC72987B22100799C82 /* Container */,
+				C8609AC0298580A100799C82 /* Splash.swift */,
 				C8609AA72985510E00799C82 /* ContentView.swift */,
+				C8609ABC2985808200799C82 /* View1.swift */,
+				C8609ABE2985808F00799C82 /* View2.swift */,
 				C8609AA92985510F00799C82 /* Assets.xcassets */,
 				C8609AAB2985510F00799C82 /* NavigationControllerSwiftUI.entitlements */,
 				C8609AAC2985510F00799C82 /* Preview Content */,
+				C8609AD02987C9DA00799C82 /* Address.swift */,
+				C8609AD22987C9E600799C82 /* Register.swift */,
 			);
 			path = NavigationControllerSwiftUI;
 			sourceTree = "<group>";
@@ -67,6 +104,36 @@
 				C8609AAD2985510F00799C82 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8609AB629857E9000799C82 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C8609AB729857EDB00799C82 /* AppDelegate.swift */,
+				C8609AB929857EED00799C82 /* SceneDelegate.swift */,
+				C8609AC529870BAF00799C82 /* CustomNavigation.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		C8609ABB2985806800799C82 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C8609AC22985829F00799C82 /* FlowCoordinator.swift */,
+				C8609AD42987CF2900799C82 /* AuthCoordinator.swift */,
+				C8609AD62987DCCC00799C82 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C8609AC72987B22100799C82 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				C8609AC82987B24700799C82 /* RootContainer.swift */,
+				C8609ACA2987C8CE00799C82 /* AuthContainer.swift */,
+				C8609ACC2987C8DC00799C82 /* MainContainer.swift */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +206,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8609AC1298580A100799C82 /* Splash.swift in Sources */,
+				C8609AB829857EDB00799C82 /* AppDelegate.swift in Sources */,
+				C8609ABF2985808F00799C82 /* View2.swift in Sources */,
 				C8609AA82985510E00799C82 /* ContentView.swift in Sources */,
-				C8609AA62985510E00799C82 /* NavigationControllerSwiftUIApp.swift in Sources */,
+				C8609AD52987CF2900799C82 /* AuthCoordinator.swift in Sources */,
+				C8609AD32987C9E600799C82 /* Register.swift in Sources */,
+				C8609ACD2987C8DC00799C82 /* MainContainer.swift in Sources */,
+				C8609AC32985829F00799C82 /* FlowCoordinator.swift in Sources */,
+				C8609AD12987C9DA00799C82 /* Address.swift in Sources */,
+				C8609ABA29857EED00799C82 /* SceneDelegate.swift in Sources */,
+				C8609AC92987B24700799C82 /* RootContainer.swift in Sources */,
+				C8609ACB2987C8CE00799C82 /* AuthContainer.swift in Sources */,
+				C8609ABD2985808200799C82 /* View1.swift in Sources */,
+				C8609AD72987DCCC00799C82 /* MainCoordinator.swift in Sources */,
+				C8609AC629870BAF00799C82 /* CustomNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +349,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationControllerSwiftUI/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -279,7 +360,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -287,10 +368,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.selsela.NavigationControllerSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,6 +390,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationControllerSwiftUI/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -317,7 +401,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -325,10 +409,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.selsela.NavigationControllerSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -7,11 +7,16 @@
 
 import SwiftUI
 
-@main
-struct NavigationControllerSwiftUIApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+//@main
+//struct NavigationControllerSwiftUIApp: App {
+//    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+//
+//    var body: some Scene {
+//        WindowGroup {
+//            Splash()
+//                .onAppear(){
+//                print("Enterd SWitui")
+//            }
+//        }
+//    }
+//}
