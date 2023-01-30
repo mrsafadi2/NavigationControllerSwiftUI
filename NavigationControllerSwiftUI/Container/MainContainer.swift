@@ -23,7 +23,7 @@ class MainContainer {
     
     
     func addressView() -> UIViewController{
-        let vc = Address() 
+        let vc = Address(name: "test")  
         return LightHostingController(rootView: vc)
     }
     

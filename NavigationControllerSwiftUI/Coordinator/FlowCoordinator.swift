@@ -12,9 +12,10 @@ class FlowCoordinator:ObservableObject {
     
     var window: UIWindow
     var navigationController: CustomeNavigation!
-    var rootContainer: RootContainer!
+
     var authContainer : AuthContainer!
     var mainContainer : MainContainer!
+
     var isLogin = true
 
     public init(window: UIWindow) {
@@ -23,7 +24,6 @@ class FlowCoordinator:ObservableObject {
     }
     
     public func showRootView(){
-        rootContainer = RootContainer(flowCoordinator: self)
         if isLogin {
             showMainRoot()
         }else{

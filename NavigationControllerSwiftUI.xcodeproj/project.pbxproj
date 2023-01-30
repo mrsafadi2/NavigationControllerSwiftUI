@@ -17,7 +17,6 @@
 		C8609AC1298580A100799C82 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AC0298580A100799C82 /* Splash.swift */; };
 		C8609AC32985829F00799C82 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AC22985829F00799C82 /* FlowCoordinator.swift */; };
 		C8609AC629870BAF00799C82 /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AC529870BAF00799C82 /* CustomNavigation.swift */; };
-		C8609AC92987B24700799C82 /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AC82987B24700799C82 /* RootContainer.swift */; };
 		C8609ACB2987C8CE00799C82 /* AuthContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609ACA2987C8CE00799C82 /* AuthContainer.swift */; };
 		C8609ACD2987C8DC00799C82 /* MainContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609ACC2987C8DC00799C82 /* MainContainer.swift */; };
 		C8609AD12987C9DA00799C82 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8609AD02987C9DA00799C82 /* Address.swift */; };
@@ -41,7 +40,6 @@
 		C8609AC22985829F00799C82 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
 		C8609AC42985A1FC00799C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C8609AC529870BAF00799C82 /* CustomNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
-		C8609AC82987B24700799C82 /* RootContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContainer.swift; sourceTree = "<group>"; };
 		C8609ACA2987C8CE00799C82 /* AuthContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContainer.swift; sourceTree = "<group>"; };
 		C8609ACC2987C8DC00799C82 /* MainContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainer.swift; sourceTree = "<group>"; };
 		C8609AD02987C9DA00799C82 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 		C8609AC72987B22100799C82 /* Container */ = {
 			isa = PBXGroup;
 			children = (
-				C8609AC82987B24700799C82 /* RootContainer.swift */,
 				C8609ACA2987C8CE00799C82 /* AuthContainer.swift */,
 				C8609ACC2987C8DC00799C82 /* MainContainer.swift */,
 			);
@@ -216,7 +213,6 @@
 				C8609AC32985829F00799C82 /* FlowCoordinator.swift in Sources */,
 				C8609AD12987C9DA00799C82 /* Address.swift in Sources */,
 				C8609ABA29857EED00799C82 /* SceneDelegate.swift in Sources */,
-				C8609AC92987B24700799C82 /* RootContainer.swift in Sources */,
 				C8609ACB2987C8CE00799C82 /* AuthContainer.swift in Sources */,
 				C8609ABD2985808200799C82 /* View1.swift in Sources */,
 				C8609AD72987DCCC00799C82 /* MainCoordinator.swift in Sources */,
